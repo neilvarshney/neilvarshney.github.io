@@ -9,3 +9,8 @@ h1
 {
     color: #333; 
 }
+
+.center-text 
+{
+    text-align: center;
+}
