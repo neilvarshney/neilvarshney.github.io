@@ -1,16 +1,87 @@
-body 
-{
-    font-family: sans-serif;
-    margin: 0; 
-    padding: 20px;
-}
 
 h1 
 {
-    color: #333; 
+    font-family: Poppins;
+    margin: 0; 
+
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    padding-left: 100px;
 }
 
-.center-text 
+.p1
 {
-    text-align: center;
+    font-family: Poppins;
+    margin: 0; 
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    padding-left: 100px;
+}
+
+.p2
+{
+    padding-top: 12px;
+    font-family: Poppins;
+    margin: 0; 
+    font-weight: bold;
+    opacity: 0.6;
+    font-size: 12px;
+    text-align: left;
+    color: white;
+    padding-left: 100px;
+}
+
+.button-link 
+{
+    z-index: 1;
+    position: absolute;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 100px;
+    background-color: transparent; /* Make the button background transparent */
+    border: none;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;  /* White text color */
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.5s ease; /* Smooth transition for color change */
+    transition: font-size 0.3s ease;
+}
+
+.button-link:hover
+{
+    color: #3e8e41; /* Darker green on hover */
+    font-size: 18px;
+}
+
+.button-linkgreen
+{
+    z-index: 2;
+    position: absolute;
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 100px;
+    background-color: transparent; /* Make the button background transparent */
+    border: none;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: #3e8e41;  /* Green text color */
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.5s ease; /* Smooth transition for color change */
+    transition: font-size 0.3s ease;
+}
+  
+.button-linkgreen:hover
+{
+    color: #3e8e41; /* Darker green on hover */
+    font-size: 18px;
 }
